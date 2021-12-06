@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/size.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Pizzaria Responsive</title>
+</head>
+
+<body>
+    <!-- début header Lucas  -->
+    <header>
+        <div class="container-fluid" id="accueil">
+            <!-- Début Nav Barre Lucas  -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow p-3" data-bs-toggle="collapse"
+                data-bs-target=".navbar-collapse.show">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="#accueil"><img src="assets/img/logo.png" alt="logo de la pizzeria"
+                            width="200"></a>
+                    <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#accueil"><span class="textstyle">Accueil</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#menu"><span class="textstyle">Plats</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#galery"><span class="textstyle">Galerie</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#location"><span class="textstyle">Coordonnées</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact"><span class="textstyle">Contact</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="containerPres mt-5 mt-sm-5 marginTop">
+            <img class="image-fluid w-100" src="assets/img/fondtexteCopie.jpg" alt="fond pizza pour texte">
+            <div class="centeredText">
+                <h1>La Pizzaria</h1>
+                <p class="d-none d-lg-block fs-6" id="presentation">
+                    Depuis maintenant 1976,
+                    notre établissement mythique ne cesse de perdurer dans les décennies.
+                    Notre pizzeria met à disposition de nombreuses spécialités italiennes,
+                    qui ne cessent d'attirer différentes cultures.
+                    La Pizzaria conquit le monde entier grâce à sa savoureuse
+                    pâte et sa sauce maison élaborée avec des produits locaux.
+                </p>
+            </div>
+        </div>
+        </section>
+        <div class="row">
+
+            <p class="d-block d-lg-none fs-6" id="presentation1">
+                Depuis maintenant 1976,
+                notre établissement
+                mythique ne cesse de perdurer dans les décennies.
+                Notre pizzeria met à disposition de nombreuses spécialités italiennes,
+                qui ne cessent d'attirer différentes cultures.
+                La Pizzaria conquit le monde entier grâce à sa savoureuse
+                pâte et sa sauce maison élaborée avec des produits locaux.
+            </p>
+        </div>
+        <!-- Fin de Nav barre Lucas -->
+    </header>
+
+    <div class="separation mb-5"></div>
+    <!--DEBUT DE LA SECTION NOS ENTREES-->
+    <section id="menu">
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center">
+                <div class="col-12 col-lg-6">
+                    <h2>Nos plats</h2>
+
+                </div>
+                <div class="col-12 col-lg-6">
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row plat text-center align-items-center">
+                <div class="separation"></div>
+                <h3>Antipasti</h3>
+                <div class="col-12 col-lg-6"><img src="assets/img/entrées.jpg" class="img-fluid"
+                        alt="Présentation des entrées"></div>
+                <div class="col-12 col-lg-6">
+                    <ul class="fs-6">
+                        <li><span>BROUSCHETTA</span>
+                            <p><em>Purée d'avocat sur son pain grillé, tomate, mozzarella,
+                                    basilic</em>
+                                <strong>10€</strong>
+                            </p>
+                        </li>
+                        <li><span>TIRAMISU D'AVOCAT</span>
+                            <p><em>Purée d'avocat marinée et jambon de parme</em> <strong>10€</strong></p>
+                        </li>
+                        <li><span>SALADE CESAR</span>
+                            <p><em>Croustillant de poulet , croûtons, lamelles de parmesan, sauce césar maison,
+                                    oignons rouges</em>
+                                <strong>11€</strong></p>
+                        </li>
+                        <li><span>SALADE VEGGIE</span>
+                            <p><em>Légumes grillés et marinés à l'huile d'olive , toast d'avocat et burrata,
+                                    oignons rouges</em>
+                                <strong>11.50€</strong></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FIN DE LA SECTION NOS ENTREES-->
+    <!--DEBUT DE LA SECTION NOS PIZZAS-->
+    <section>
+        <div class="container plat">
+            <div class="row text-center align-items-center">
+                <h3>Pizza</h3>
+                <div class="col-12 col-lg-6 order-1 order-lg-2"> <img src="assets/img/pizza.jpg" class="img-fluid"
+                        alt="Présentation de nos Pizza">
+                </div>
+                <div class="col-12 col-lg-6 order-1 order-lg-1">
+                    <ul class="fs-6">
+                        <li><span>REGINA</span>
+                            <p><em>Sauce tomate, mozzarella, champignons, jambon, origan</em>
+                                <strong>13€</strong>
+                            </p>
+                        </li>
+                        <li><span>NAPOLITANA</span>
+                            <p><em>Sauce tomate, mozzarella, anchois, câpres, olives, origan</em>
+                                <strong>13.50€</strong></p>
+                        </li>
+                        <li><span>QUATRO FORMAGGI</span>
+                            <p><em>Sauce tomate, mozzarella, gorgonzola, chèvre, parmesan</em>
+                                <strong>14.50€</strong>
+                            </p>
+                        </li>
+                        <li><span>THIERRY</span>
+                            <p><em>Crème de developpeur, html, css, javascript, sauce de bonne humeur faite
+                                    maison</em>
+                                <strong>16€</strong></p>
+                        </li>
+                        <li><span>VÉGÉTARIENNE</span>
+                            <p><em>Sauce tomate, mozzarella, champignons, aubergines, courgettes, poivrons,
+                                    olives</em>
+                                <strong>13.50€</strong></p>
+                        </li>
+                        <li><span>CALZONE (Soufflée)</span>
+                            <p><em>Sauce tomate, mozzarella, jambon, œuf</em> <strong>13.50€</strong></p>
+                        </li>
+                        <li><span>PEPPERONI</span>
+                            <p><em>Sauce tomate, mozzarella, salami piquant</em> <strong>13.50€</strong></p>
+                        </li>
+                        <li><span>SOPRANO</span>
+                            <p><em>Sauce tomate, mozzarella, salami piquant, jambon, poivrons, œuf</em>
+                                <strong>14.50€</strong>
+                            </p>
+                        </li>
+                        <li><span>PARMA</span>
+                            <p>Sauce tomate, mozzarella, jambon de Parme <strong>15€</strong></p>
+                        </li>
+                        <li><span>CAMPIONE</span>
+                            <p><em>Sauce tomate, mozzarella, viande hachée, poivrons, merguez, olives, basilic,
+                                    origan</em>
+                                <strong>14€</strong></p>
+                        </li>
+                        <li><span>TRAVIATA</span>
+                            <p><em>Crème fraîche, mozzarella, saumon fumé</em> <strong>15€</strong></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FIN DE LA SECTION NOS PIZZAS-->
+    <!--DEBUT DE LA SECTION NOS PATES-->
+    <section>
+        <div class="container plat">
+            <div class="row text-center align-items-center">
+                <h3>Pasta</h3>
+                <div class="col-12 col-lg-6"> <img src="assets/img/pates.jpg" class="img-fluid"
+                        alt="Présentation de nos Pâtes">
+                </div>
+                <div class="col-12 col-lg-6">
+                    <ul class="fs-6">
+                        <li><span>LASAGNE STRACCIATELLA</span>
+                            <p><em>Viande hachée, sauce tomate maison et coeur de burrata fondant</em>
+                                <strong>12.50€</strong>
+                            </p>
+                        </li>
+                        <li><span>PENNE PESTO</span>
+                            <p><em>Pâtes à la sauce pesto maison</em> <strong>12.50€</strong></p>
+                        </li>
+                        <li><span>RAVIOLI AL TARTUFO</span>
+                            <p><em>Raviolis farcis aux cèpes, sauce à la crème de truffe</em> <strong>15€</strong>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FIN DE LA SECTION NOS PATES-->
+    <div class="separation"></div>
+    <!--DEBUT DE LA SECTION NOS DESSERTS-->
+    <section>
+        <div class="container plat">
+            <div class="row text-center align-items-center">
+                <h3>Dolce</h3>
+                <div class="col-12 col-lg-6 order-1 order-lg-2"> <img src="assets/img/tiramisu.jpg" class="img-fluid"
+                        alt="Présentation des desserts">
+                </div>
+                <div class="col-12 col-lg-6 order-2 order-lg-1">
+                    <ul class="fs-6">
+                        <li><span>ASSORTIMENT DE 3 TIRAMISU </span>
+                            <p><em>Tiramisu framboise, pistache, mangue</em> <strong>7.50€</strong></p>
+                        </li>
+                        <li><span>PIZZA SOUFFLEE AU NUTELLA</span>
+                            <p><em>Servie avec une boule de glace à la vanille</em> <strong>8€</strong></p>
+                        </li>
+                        <li><span>COLONELLO</span>
+                            <p><em>Boule de glace citon, vodka 2cl</em> <strong>10€</strong></p>
+                        </li>
+                        <li><span>PANNA COTTA AUX FRUITS ROUGE</span>
+                            <p><em>Crème cuite italienne à la vanille serie avec une purée de fruits rouges</em>
+                                <strong>8.50€</strong></p>
+                        </li>
+                        <li><span>PROFITEROLES</span>
+                            <p><em>Choux maison, boule de glace à la vanille et chocolat fondu</em>
+                                <strong>9.50€</strong></p>
+                        </li>
+                        <li><span><em>CAFE GOURMAND</em> <strong>9€</strong></span>
+                        </li>
+                        <li><span><em>TIRAMISU CLASSIQUE</em> <strong>9€</strong></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FIN DE LA SECTION NOS DESSERTS-->
+    <div class="separation"></div>
+    <!-- DEBUT DE LA GALERY -->
+    <section id="galery" class="container">
+
+        <div class="row">
+
+            <div class="col-12 col-lg-6">
+                <h2>Galeries photos</h2>
+
+            </div>
+            <div class="col-12 col-lg-6">
+                <hr>
+            </div>
+
+        </div>
+        <div class="separation"></div>
+
+        <div class="categorysecond">
+
+            <div class="zoom column">
+
+                <div>
+                    <div><img src="assets/img/deventure_de_la_pizzeriapng.png" alt="deventure de pizzeria" /></div>
+                </div>
+
+                <div>
+                    <div><img src="assets/img/sac_de_tranport_à_pizza.png" alt="sac de transport pour pâtes" />
+                    </div>
+                </div>
+
+                <div>
+                    <div><img src="assets/img/boite_a_pizza.png" alt="boite de transport a pizza" /></div>
+                </div>
+
+            </div>
+
+            <div class="zoom column">
+
+                <div>
+                    <div><img src="assets/img/chef_pizza_avec_sauce_tomates.png" alt="chef de cuisine pour pizza" />
+                    </div>
+                </div>
+
+                <div>
+                    <div><img src="assets/img/serveur_de_pizza_avec_tablier.png" alt="serveur dans une pizzeria" />
+                    </div>
+                </div>
+
+                <div>
+                    <div><img src="assets/img/boite_a_pizza_second.png" alt="boite de transport a pizza" /></div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- FIN DE LA GALERY -->
+    <div class="separation"></div>
+    <!-- COORDONNEES DEBUT -->
+    <section class="container">
+        <div class="row text-center align-items-center justify-content-center">
+            <div class="col-12 col-lg-6">
+                <div id="location">
+                    <h2>Nous contacter</h2>
+                </div>
+
+            </div>
+            <div class="col-12 col-lg-6">
+                <hr>
+            </div>
+            <div class="separation"></div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.4685895314997!2d2.299287015677198!3d49.890005379402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e7857c0e87f5fb%3A0x37fb21b742d12b66!2sLa%20Manu%20-%20L&#39;%C3%89cole%20des%20m%C3%A9tiers%20du%20num%C3%A9rique!5e0!3m2!1sfr!2sfr!4v1624523144434!5m2!1sfr!2sfr"
+                width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="coord">
+                <div class="coord1">
+                    <ul>
+                        <li><a href="https://g.page/LaManu-Amiens?share" style="text-decoration: none;"
+                                target="blank"><img src="assets/img/iconCarte.png" alt="icone d'une carte">
+                                <p class="d-none d-lg-block">23 rue blabla</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://fr-fr.facebook.com/" style="text-decoration: none;" target="blank"><img
+                                    src="assets/img/iconFacebook.png" alt="icone de facebook">
+                                <p class="d-none d-lg-block"> La pizzeria</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="coord1">
+                    <ul>
+                        <li>
+                            <a href="tel:+33322222222" style="text-decoration: none;" target="blank"><img
+                                    src="assets/img/iconPhone.png" alt="icone de telephone">
+                                <p class="d-none d-lg-block">03.22.22.22.22</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:lapizzeria@gmail.com" style="text-decoration: none;" target="blank"><img
+                                    src="assets/img/iconMail.png" alt="icone de mail">
+                                <p class="d-none d-lg-block">lapizzeria@gmail.com</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="schedule">
+                <img class="sizeimgclock" src="assets/img/iconClock.png" alt="icone d'une horloge">
+                <p>Du Lundi au Vendredi de 11h45 à 22h30</p>
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-- COORDONNEES FIN-->
+    <div class="separation"></div>
+    <!--DEBUT DU FORMULAIRE DE CONTACT-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 text-center">
+                    <h2>CONTACT</h2>
+
+                </div>
+                <div class="col-12 col-lg-6">
+                    <hr>
+                </div>
+                <div class="separation" id="contact"></div>
+                <div class="col-12">
+
+                    <div id="formulaire">
+                        <form class="container" action="mailto:email@example.com">
+                            <div class="row">
+                                <label for="lname" class="text-lg-end text-center col-12 col-lg-4">Nom *:</label>
+                                <input class="barre1 col-12 col-lg-4" type="text" id="lname" name="lname" required><br>
+                            </div>
+                            <div class="margin"></div>
+                            <div class="row">
+                                <label for="fname" class="text-lg-end text-center col-12 col-lg-4">Prénom *:</label>
+                                <input class="barre2 col-12 col-lg-4" type="text" id="fname" name="fname" required><br>
+                            </div>
+                            <div class="margin"></div>
+                            <div class="row">
+                                <label for="email" class="text-lg-end text-center text-center col-12 col-lg-4">Adresse
+                                    mail
+                                    *:</label>
+                                <input class="barre3 col-12 col-lg-4" type="text" id="email" name="email" required><br>
+                            </div>
+                            <div class="margin"></div>
+                            <div class="row">
+                                <label for="phone" class="text-lg-end text-center col-12 col-lg-4">N° de téléphone
+                                    *:</label>
+                                <input class="barre4 col-12 col-lg-4" type="text" id="phone" name="phone" required><br>
+                            </div>
+                            <div class="margin"></div>
+                            <div class="row">
+                                <label for="date" class="text-lg-end text-center col-12 col-lg-4">Date *:</label>
+                                <input id="date" class="barre5 col-12 col-lg-4" type="date" name="date" required><br>
+                            </div>
+                            <div class="margin"></div>
+                            <div class="row">
+                                <label for="hour" class="text-lg-end text-center col-12 col-lg-4">Heure *:</label>
+                                <input id="hour" class="barre6 col-12 col-lg-4" type="time" name="mytime" required><br>
+                            </div>
+                            <div class="margin"></div>
+                            <div class="row">
+                                <label for="message" class="text-lg-end text-center col-12 col-lg-4">Votre message
+                                    *:</label>
+                                <textarea class="w-auto" rows="4" cols="54" id="message" name="message"></textarea><br>
+                                <div class="d-lg-flex justify-content-lg-center text-center">
+                                    <input type="submit" value="Envoyer" class="sendButton col-12 col-lg-12 mt-2">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="separation"></div>
+    <!-- Début du Footer -->
+    <footer id="footerColor">
+        <div class="footerPosition">
+
+            <ul style="list-style-type:none;" class="d-none d-lg-block fontsizeA fontsizeA text-center mt-3">
+
+                <a href="#accueil">
+                    <li>Accueil</li>
+                </a>
+                <a href="#nosPlats">
+                    <li>Plats</li>
+                </a>
+                <a href="#contact">
+                    <li>Coordonnées</li>
+                </a>
+                <a href="#formulaire">
+                    <li>Contact</li>
+                </a>
+            </ul>
+
+            <h6 class="ms-2 fontsizeA text-center mt-3"><a  href="mentions.html" target="_blank">Mentions Légales</a></h6>
+            <h6 class="fontsizeA text-center mt-3">Copyright 2021,<a href="#acceuil">La Pizzaria</a></h6>
+
+            <ul class="d-none d-lg-block fontsizeA text-center mt-3">
+                <a href="https://fr-fr.facebook.com/" target="blank">
+                    <li>Rejoignez nous sur Facebook</li>
+                </a>
+                <a href="tel:+33322222222" target="blank">
+                    <li>03.22.22.22.22</li>
+                </a>
+                <a href="mailto:lapizzaria@gmail.com" target="blank">
+                    <li>lapizzaria@gmail.com</li>
+                </a>
+                <a href="https://g.page/LaManu-Amiens?share" target="blank">
+                    <li>23 rue blabla</li>
+                </a>
+            </ul>
+        </div>
+    </footer>
+    <!-- Fin du footer -->
+    <!--FIN DU FORMULAIRE DE CONTACT-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
